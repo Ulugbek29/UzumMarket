@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    .footer__top ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        li {
+            h3 {
+                font-size: 1rem;
+                color: $black__color;
+                margin-bottom: 1rem;
+            }
+            ul {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                gap: 1rem;
+                li a {
+                    text-decoration: none;
+                    color: $black__color;
+                    font-size: 0.85rem;
+                }
+            }
+
+            .downloads {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                gap: 1rem;
+                .apple, 
+                .google-play {
+                    display: flex;
+                    align-items: center;
+                       gap: 0.5rem;
+                    i {
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            h3 {
+                font-size: 1rem;
+            }
+
+            .socials {
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                i {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    .hl {
+        display: block;
+        height: 1px;
+        width: 100%;
+        background: rgb(221, 221, 221);
+        margin: 3rem 0 1rem 0;
+    }
+
+    .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        div {
+            display: flex;
+            gap: 1rem;
+            h3 {
+                font-size: 0.9rem;
+                color: $black__color;
+            }
+        }
+        > p {
+            font-size: 0.7rem;
+            color: $grey__color;
+        }
+    }
+}

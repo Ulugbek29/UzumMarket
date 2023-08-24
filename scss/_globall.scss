@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    user-select: none;
+}
+
+$grey__color: #62656A;
+$black__color: #000000; 
+$uzum__color:rgb(112, 0, 255);
+$text__color:#000000b3;
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 0 8%;
+}
+
+main {
+    padding: 1rem 8%;
+}
+
+footer {
+    padding: 0 8%;
+}
